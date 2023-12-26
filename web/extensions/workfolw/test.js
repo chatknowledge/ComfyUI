@@ -82,7 +82,7 @@ app.registerExtension({
         if (workflow_id)
 
 
-            fetch('http://127.0.0.1:8000/workflow/get_json', {
+            fetch('/comfyui-api/workflow/get_json', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
