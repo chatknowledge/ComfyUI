@@ -94,6 +94,14 @@ app.registerExtension({
             })
                 .then(response => response.json())
                 .then(data => {
+                    if (data.code !== 0) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: '获取流程失败',
+                            text: data.message,
+                        })
+                        return
+                    }
                     // 在这里可以使用获取到的 JSON 数据（data）
                     var filename = "workflow.json";
                     var mimeType = "application/json";
