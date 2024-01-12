@@ -16,3 +16,7 @@ venv/
 !/web/extensions/core/
 !/web/extensions/workfolw/
 /tests-ui/data/object_info.json
+.env
+/data/
+/logs/
+*.sqlite

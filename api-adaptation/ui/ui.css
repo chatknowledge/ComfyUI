@@ -1,0 +1,39 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);*/
+
+
+.my_table table {
+    border-radius: 0.25em;
+}
+
+.my_table table th {
+    color: #E2B842;
+}
+
+
+.my_table table tbody tr {
+    transition: background 0.25s ease;
+}
+
+.my_table table tbody tr:hover {
+    background: rgba(171, 205, 250, 0.3);
+}
+
+.my_table .table-wrap{
+    /*height: 100% !important;*/
+}
+
+
+.result-image {
+    height: 260px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+.sort-button {
+    display: none;
+}
+
+.tab_end .tab-nav{
+    justify-content: flex-end;
+}
